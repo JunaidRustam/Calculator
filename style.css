@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    
+}
+.calculator {
+    width: 350px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: gray;
+    justify-content: space-between;
+}
+ .calculator {
+    width: 350px;
+    height: 350px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: gray;
+    justify-content: space-between;
+} 
+#display {
+    width: 100%;
+    margin-bottom: 10px;
+    padding-top: 3px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 7px;
+    font-size: 1.5em;
+    background-color: slategrey;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+button {
+    padding: 10px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(226, 232, 234);
+    cursor: pointer;
+    width: 100%;
+    
+}
+
+button:hover {
+    background-color: lightslategray;
+}
+.buttons button {
+    width: calc(25% - 5px); /* 25% width for each button with a little space between */
+    margin-bottom: 5px;
+}
+.buttons button:last-child {
+    width: calc(77% - 5px); /* Make the last button fill the remaining space */
+}
